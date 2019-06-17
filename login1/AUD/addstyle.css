@@ -1,0 +1,74 @@
+*{
+ 	margin: 0;
+ 	padding: 0;
+
+ }
+ body{
+ 	background-image: url(../AUD/bg.jpg);
+ 	background-size: 100% 700px;
+ 	background-repeat: no-repeat;
+
+ }
+h1 {
+ 		text-align: center;
+ 		padding: 20px;
+ 		color: white;
+
+ }
+h2 {
+ 		text-align: center;
+ 		padding: 20px;
+
+ }
+.register {
+
+ 		background: rgba(0,0,0,0.45);
+    	width: 500px;
+    	margin: 0px 0px 0px 430px;
+    	color: white;
+    	font-size: 18px;
+    		padding: 20px;
+    		border-radius: 10px;
+ }
+
+#register {
+	margin-left: 50px;
+}
+label {
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+#name {
+	width: 300px;
+	border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+
+}
+#sub {
+	width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: 'helvetica','Open Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.6s linear;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    background: #00b6df;
+    color: #fff;
+    cursor: pointer;
+}
+#num {
+	width: 300px;
+	border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+
+}

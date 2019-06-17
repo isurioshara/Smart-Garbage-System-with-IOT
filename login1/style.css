@@ -1,0 +1,274 @@
+body {
+  color: #fff;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+	background:url(img/bg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-wrapper{
+    width:300px;
+    height:200px;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin: -184px 0px 0px -155px;
+    background: rgba(0,0,0,0.27);
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+    }
+
+    
+.form-item {
+      width:100%;
+      }
+
+.form-item input{
+        border: none;
+        background:transparent;
+        color: #fff;
+        margin-top:11px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2em;
+        height: 49px;
+        padding: 0 16px;
+        width: 100%;
+       }
+
+.form-item input:focus {
+        outline: none;
+        border:1.4px solid #cfecf0;
+      }
+.button-panel {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+  }
+.button-panel .button {
+    background: #00b6df;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    font-family: 'helvetica','Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.6s linear;
+    width: 100%;
+    margin-top:10px;
+  }
+.button:hover {
+    background: #6eb7cb;
+  }
+.form-item input, .button-panel .button {
+    border-radius: 2px
+  }
+  
+
+
+.form-wrapper2 {
+  width:990px;
+  height:469px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin: -184px 0px 0px -155px;
+    background: rgba(0,0,0,0.27);
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+  }
+/*colombo map in home.php file*/
+  
+img{
+  padding:22px 105px;
+  border-radius: 9%;
+  float: right;
+  
+}
+
+.mapouter{
+  position: relative;
+  text-align:left;
+  height:600px;
+  left:150px;
+  width:1000px;
+  padding: 20px 90px;
+  
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:600px;
+    width:1000px;
+    padding: 20px 90px;
+}
+
+h2{
+  margin-left: 10px;
+}
+h3{
+  font-size: 25px;
+  font-weight: 640;
+  margin-bottom: 10px;
+  color: #91dd9e;
+  padding:6px;
+  font-family:'sans-serif','helvetica';
+}
+h4{
+  font-size: 15px;
+  margin-bottom: 0.01px;
+  margin-top: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 100px;
+  color: #e7e7e7;
+  
+  }
+
+h5{
+  font-size: 12px;
+  font: 'Open Sans', sans-serif;
+  margin-left: 10px;
+}
+
+li{
+  float: right;
+}
+
+input[type='password']{
+	background: transparent url("img/pass.jpg") no-repeat;
+	background-position: 10px 50%;
+}
+
+input[type='text']{
+	background: transparent url("img/user.jpg") no-repeat;
+	background-position: 10px 50%;
+
+}
+/*subtitle background in hoe page*/
+.subtitle_wrapper{
+  text-align: left;
+  width:300px;
+  height:50px;
+  left: 15px;
+  opacity: 0.5;
+  position: relative;
+  margin: 25px 5px 0px 4px;
+  background: rgba(72, 123, 182, 0.966);
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  float: left;
+}
+/*------------------*/
+.reminder {
+  text-align: left;
+   /* width:325px;
+  height:40px;
+  position: absolute;
+  margin: 4px 0px 0px 4px;
+  background: rgba(0,0,0,0.27);
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;*/
+  
+}
+
+.reminder a {
+  color: rgb(234, 238, 240);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 16px;
+  padding: 12px;
+
+
+}
+
+.reminder a:hover {
+  color: #adc7e9;
+}
+
+/*background boxes of reigions-home.php */
+.areabox{
+  text-align: left;
+  width:200px;
+  height:30px;
+  left: 45px;
+  position: relative;
+  margin: 25px 5px 0px 4px;
+  background: rgba(0,0,0,0.27);
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  float: left;
+}
+
+/*
+the not sidebar (topnav) menu @sidebar.php file*/
+
+.sidenav{
+/*height: 100%;/*Full-height:remove this if you want "auto " height*/
+/*width: 160px; /*set width of the sidebar*/
+/*position: fixed; /*fixed sidebar(stay in one place on scroll)*/
+/*z-index: 1;/*stay on the top*/
+/*top: 0; /*stay at the top*/
+/*left: 0;
+background-color: #e7e7e7;
+overflow-x:hidden;/*disable horizontal scroll*/
+/*padding-top: 20px;*/
+overflow: hidden;
+background-color: #333;
+opacity: 0.8;
+}
+
+/*navigation menu links*/
+.sidenav a{
+  /*padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #4CAF50;
+  display: block;*/
+  background: transparent;
+  float:left;
+  color: #6cdd55f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+.sidenav a.active{
+  background-color: #4CAF50;
+  color: white;
+}
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+
+  /*on smaller screen, where height is less than 450px, change the style of the sidebar
+  (less padding and a smaller font)*/
+  @media screen and (max-height:450px){
+    .sidenav{padding-top: 15px;
+    }
+    .sidenav a{font-size: 18px;
+    }
+  }
+/*
+h4 sidebar.php
+*/
+
+/*map sider style @ mapsider.php*/
+.mapsider{
+  width:250px;
+    height:400px;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    margin: -184px 0px 0px -155px;
+    background: rgba(0,0,0,0.27);
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
